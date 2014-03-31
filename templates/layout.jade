@@ -1,0 +1,41 @@
+include mixins
+!!! 5
+html(lang='de-DE', prefix='og: http://ogp.me/ns#', manifest='offline.manifest')
+  head
+    include header
+  body#skrollr-body
+    .main.row.max-w.c-m
+      .head.col-xs-12
+        h1
+          | #{name}
+        p.born
+            | geboren am 
+            if (public)
+                strong.blurry-text ##.##.#### 
+            else
+                strong #{birthdate}
+                |  in 
+            if (public)
+                strong.blurry-text ## ##############
+            else
+                | #{birthplace}
+        h2
+          | #{jobtitle}
+        if(!public)
+            include claim
+      .right-now.col-xs-12
+        h3.legend Current work
+        p
+          | #{currentWork}
+      
+      .clearfix
+      
+      include timeline
+      
+      include skills
+      
+    .footer.max-w.c-m.row#skrollr-target
+        include footer
+    
+    include analytics.html
+    

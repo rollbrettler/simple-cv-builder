@@ -1,0 +1,23 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "authors": [
+    "Tim Petter <tim@timpetter.de>"
+  ],
+  "description": "dependcies for a simple cv builder",
+  "license": "GPL, Version 3",
+  "homepage": "https://timpetter.de/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "*",
+    "normalize-css": "~2.1.3",
+    "skrollr": "*"
+  },
+  "private": true
+}

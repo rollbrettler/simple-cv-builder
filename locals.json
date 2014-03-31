@@ -1,0 +1,23 @@
+{
+    
+    "name": "Your name",
+    "birthdate": "31.03.2014",
+    "birthplace": "Birthplace",
+    "email": "email@provider.tld",
+    
+    "url": "https://provider.tld/cv/",
+    
+    
+    "title": "CV from (your name)",
+    "description": "short description for google and social sharing",
+    
+    
+    "jobtitle": "your job title",
+    "currentWork": "What are you doing right now?!",
+    
+    "phoneNumber": "01234 5678910",
+    
+    "standPicture": "pictures/you.png",
+    "standPicturePublic": "pictures/you-public.png",
+    
+}

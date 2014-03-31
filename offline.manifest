@@ -1,0 +1,36 @@
+CACHE MANIFEST
+
+#version 1.0 31-03-2014
+
+CACHE:
+
+#images
+{URL}/pictures/tim-petter-stand-public.png
+
+#internal HTML documents
+{URL}
+
+#style sheets
+http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Arvo:400,700
+https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Arvo:400,700
+
+{URL}/style.css
+
+#style sheet images
+
+#fonts
+http://themes.googleusercontent.com/static/fonts/arvo/v5/BM-nqL-L5PgjKPDNaleWB_esZW2xOQ-xsNqO47m55DA.woff
+http://themes.googleusercontent.com/static/fonts/arvo/v5/_OKjjqM9ed2qvTR07QdjWwLUuEpTyoUstqEm5AMlJo4.woff
+http://themes.googleusercontent.com/static/fonts/droidsans/v3/s-BiyweUPV0v-yRb-cjciL3hpw3pgy2gAi-Ip7WPMi0.woff
+http://themes.googleusercontent.com/static/fonts/droidsans/v3/EFpQQyG9GqCrobXxL-KRMXbFhgvWbfSbdVg11QabG8w.woff
+
+https://themes.googleusercontent.com/static/fonts/arvo/v5/BM-nqL-L5PgjKPDNaleWB_esZW2xOQ-xsNqO47m55DA.woff
+https://themes.googleusercontent.com/static/fonts/arvo/v5/_OKjjqM9ed2qvTR07QdjWwLUuEpTyoUstqEm5AMlJo4.woff
+https://themes.googleusercontent.com/static/fonts/droidsans/v3/s-BiyweUPV0v-yRb-cjciL3hpw3pgy2gAi-Ip7WPMi0.woff
+https://themes.googleusercontent.com/static/fonts/droidsans/v3/EFpQQyG9GqCrobXxL-KRMXbFhgvWbfSbdVg11QabG8w.woff
+
+#javascript files
+{URL}/script.js
+
+NETWORK:
+*

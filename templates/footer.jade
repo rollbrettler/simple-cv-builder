@@ -1,0 +1,32 @@
+.col-xs-6(data-0-bottom='top:0%;', data-bottom-top='top:-100%;', data-anchor-target='#skrollr-target')
+    h3 Contact
+    address.adress-bottom
+        strong Your Name
+        br
+        if(public)
+            | <span class="blurry-text">########### ##</span>
+        else
+            | Your Street 14
+        br
+        if(public)
+            | <span class="blurry-text">#####</span> Town
+        else
+            | ZIP Town
+        br
+        br
+        abbr(title='Phone')
+            i.fa.fa-phone
+        if(public)
+            | <span class="blurry-text">#### #######</span>
+        else
+            | #{phoneNumber}
+        br
+        abbr(title='E-Mail')
+            i.fa.fa-envelope-o
+        script.
+            email('name', 'provider', 'tld', 'Your name')
+.col-xs-6(data-0-bottom='top:0%;', data-bottom-top='top:-100%;', data-anchor-target='#skrollr-target')
+    if (public)
+        img(src='#{standPicturePublic}')
+    else
+        img(src='#{standPicture}')

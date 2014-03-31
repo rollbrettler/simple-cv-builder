@@ -1,0 +1,6 @@
+mixin progress(valueExperience, valueLearning)
+    .progress
+      .progress-bar.progress-bar-success(role='progressbar', aria-valuenow='#{valueExperience}', aria-valuemin='0', aria-valuemax='100', style='width: #{valueExperience}%')
+        span.sr-only #{valueExperience}&percnt; Erfahrung
+      .progress-bar.progress-bar-in-progress(role='progressbar', aria-valuenow='#{valueLearning}', aria-valuemin='0', aria-valuemax='100', style='width: #{valueLearning}%')
+        span.sr-only #{valueLearning}&percnt; Lernprozess

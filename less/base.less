@@ -1,0 +1,132 @@
+* {
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    * {
+        font-weight: normal;
+    }
+}
+
+.born {
+    margin-top: 0;
+}
+
+.c-m {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+canvas {
+    //display: none;
+    height: auto;
+    max-width: 100%;
+}
+
+.footer {
+    //background-image: url('../pictures/tim-petter-stand.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 475px;
+    overflow: hidden;
+}
+
+.adress-bottom {
+    margin-top: 250px;
+}
+
+.blurry-text {
+   color: transparent;
+   text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.avgrund-active {
+    background-color: darken(@background-color, 60%);
+}
+
+.avgrund-active {
+    
+    body {
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    .avgrund-contents {
+        overflow: hidden;
+        
+        .main {
+            margin-top: 0;
+        }
+    }
+    
+}
+
+
+
+@media only screen {
+    body {
+        background-color: @background-color;
+    }
+    
+    .carousel {
+        min-height: 214px;
+    }
+    
+    
+    .footer {
+        max-width: 600px;
+    }
+    
+    .main {
+        background-color: #fff;
+        border: 1px solid darken(@background-color, 10%);
+        border-radius: 3px;
+        padding: 20px 20px 15px 20px;
+    }
+}
+
+/* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
+@media only screen and (min-width: 768px) {
+    body {
+        
+    }
+    
+    .max-w {
+        max-width: 760px;
+    }
+    
+    .carousel {
+        min-height: 131px;
+    }
+    
+    .main {
+        box-sizing: border-box;
+        margin-top: 60px;
+        padding: 80px 80px 60px 80px;
+    }
+    
+    .skill {
+        min-height: 150px;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+
+    .main {
+        box-sizing: content-box;
+    }
+}
+
+/* Used to alter styles for screens at least 1280px wide. */
+@media only screen and (min-width: 1280px) {}
+
+/* Used to alter styles for screens at least 1440px wide. */
+@media only screen and (min-width: 1440px) {}
+
+/* Apply styles to screens in landscape orientation */
+@media only screen and (orientation: landscape) {}
+
+/* Apply styles to screens in portrait orientation */
+@media only screen and (orientation: portrait) {}

@@ -1,0 +1,21 @@
+ol.timeline.timeline-left
+    li(value='2014')
+        ul
+            if (futureCompany)
+                li.future.highlight
+                    | #{futureCompany}
+            li.future 
+                | some entry in future
+    li(value='2013')
+      ul
+        li.highlight
+            | A highlighted entry
+        li
+        
+            if (public)
+                | This will be shown public and <span class="blurry-text">#### ###</span>
+            else
+                | This will be shown public and this not
+        li
+            | a normal entry with a link
+            a(target='_blank', href='http://www.timpetter.de/') http://www.timpetter.de/
