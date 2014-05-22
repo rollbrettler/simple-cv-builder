@@ -130,6 +130,16 @@ module.exports = function(grunt){
                 }
             }
         },
+        connect: {
+            server: {
+              options: {
+                  keepalive: true,
+                port: 8000,
+                hostname: 'localhost',
+                base: 'build'
+              }
+            }
+          },
         
         jade: {
           debug: {
