@@ -91,6 +91,12 @@ module.exports = function(grunt){
                 tasks: ['buildcss']
             }
         },
+        
+        clean: {
+          build: {
+            src: ["build/"]
+          }
+        },
 
         htmlhint: {
             build: {
